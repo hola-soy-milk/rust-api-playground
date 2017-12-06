@@ -5,4 +5,8 @@ authors = ["Ramon Huidobro <ramon.martin.huidobro@gmail.com>"]
 
 [dependencies]
 rocket = "0.3.3"
+rocket_contrib = "0.3.3"
 rocket_codegen = "0.3.3"
+diesel = { version = "0.16.0", features = ["postgres"] }
+diesel_codegen = { version = "0.16.0", features = ["postgres"] }
+dotenv = "0.9.0"
